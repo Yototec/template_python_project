@@ -1,0 +1,24 @@
+# Ignore python cache dirs
+
+# Python temp files
+__pycache__
+.mypy_cache
+env/
+*.egg-info
+
+# Notebook checkpoints
+.ipynb_checkpoints
+
+# Anaconda checkpoints
+.spyproject
+
+# Coverage files
+.coverage
+
+# Merge files
+*.orig
+
+# OS temp files
+*~
+\#*\#
+.DS_Store

@@ -1,0 +1,12 @@
+[MESSAGES CONTROL]
+disable=
+    duplicate-code,
+    fixme,
+    invalid-name,
+    too-few-public-methods,
+
+max-args=10
+max-attributes=10
+
+[REPORTS]
+output-format=text

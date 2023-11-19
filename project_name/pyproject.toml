@@ -1,0 +1,8 @@
+[project]
+name = "project_name"
+version = "0.1"
+
+[tool.setuptools.package-data]
+"project_name" = [ "py.typed" ]
+
+[tool.black]

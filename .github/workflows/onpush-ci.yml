@@ -1,0 +1,18 @@
+# Build actions for every push
+name: onpush-check
+
+on:
+  push:
+
+jobs:
+  basic-ci:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install and check
+      run: |
+        cd project_name
+        python3 -m venv env
+        . env/bin/activate
+        make setup-dev
+        COVERAGE=1 make check

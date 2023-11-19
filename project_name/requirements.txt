@@ -1,0 +1,2 @@
+# This project does not use requirements.txt.
+# Please refer to the README of this project for installation guidelines.
