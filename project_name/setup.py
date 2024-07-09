@@ -34,7 +34,7 @@ extras_require = {
         "isort==5.9.1",
         "pylint==2.9.0",
         "flake8==4.0.1",
-        "mypy==0.942",
+        "mypy==1.2",
     ],
 }
 
