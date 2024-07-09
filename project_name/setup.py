@@ -19,10 +19,7 @@ install_requires = [
 ]
 
 extras_require = {
-    "tests": [
-        "coverage",
-        "papermill==2.3.4"
-    ],
+    "tests": ["coverage", "papermill==2.3.4"],
     "notebooks": [
         "ipykernel==6.7.0",
         "notebook==6.4.7",

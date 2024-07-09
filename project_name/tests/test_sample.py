@@ -4,20 +4,20 @@
 A sample test.
 """
 
+from unittest import TestCase
 from pandas import DataFrame  # type: ignore
 
 
-class TestSample:
+class TestSample(TestCase):
     """
     A sample test.
     """
 
-    @staticmethod
-    def test_sample() -> None:
+    def test_sample(self) -> None:
         """
         Tests.
         """
         df = DataFrame()
         df["value"] = [1, 2, 3]
 
-        assert len(df) > 0
+        self.assertGreater(len(df), 0)
