@@ -1,14 +1,14 @@
-# Copyright (c) 2018-2023 Yototec
+# Copyright (c) 2018-2025 Yototec Ltd
 
 """
 A sample test.
 """
 
-from unittest import TestCase
+import unittest
 from pandas import DataFrame  # type: ignore
 
 
-class TestSample(TestCase):
+class TestSample(unittest.TestCase):
     """
     A sample test.
     """
@@ -21,3 +21,7 @@ class TestSample(TestCase):
         df["value"] = [1, 2, 3]
 
         self.assertGreater(len(df), 0)
+
+
+if __name__ == "__main__":
+    unittest.main()
